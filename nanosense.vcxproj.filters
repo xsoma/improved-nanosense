@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="headers\imgui">
+      <UniqueIdentifier>{fee4364f-2945-45ee-a748-6101749401a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\imgui\DX9">
+      <UniqueIdentifier>{3cfd8e12-9522-41be-9e9e-6f131071669d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\math">
+      <UniqueIdentifier>{36a4ac2d-632f-4a11-b5bd-2c52d38abeef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\interfaces">
+      <UniqueIdentifier>{2050f94e-f11b-4dc6-b1f3-ded5eebbe971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\misc">
+      <UniqueIdentifier>{726dad59-b123-4688-881d-3e58a6172559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\helpers">
+      <UniqueIdentifier>{02b800e7-fc64-46e9-a873-b0d242750046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\features">
+      <UniqueIdentifier>{697da6b6-afe3-4792-ab0f-a0d61944ac97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="sources\imgui">
+      <UniqueIdentifier>{38ab4218-c15f-4ce6-bea6-085a0faf82bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\imgui\DX9">
+      <UniqueIdentifier>{39af53ed-f5fb-40b5-bf4e-693e46eab754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\math">
+      <UniqueIdentifier>{8de8a7e2-5a76-4e35-93e0-54a84647d5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\misc">
+      <UniqueIdentifier>{aa776414-c475-4a7f-8ec7-7eb6c51fd22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\helpers">
+      <UniqueIdentifier>{db137c7e-523f-475b-95f4-990ae8d48eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\features">
+      <UniqueIdentifier>{84bb81d7-f80c-4346-a3aa-9ed24cea2cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\interfaces">
+      <UniqueIdentifier>{2d4ad46b-cbd2-4207-a2fb-d09a3cdfe14c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Install.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VFunc.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IfaceMngr.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="math\QAngle.hpp">
+      <Filter>headers\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector.hpp">
+      <Filter>headers\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\VMatrix.hpp">
+      <Filter>headers\math</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\CClientState.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\CInput.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IAppSystem.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IBaseClientDll.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientEntity.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientEntityList.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientMode.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientNetworkable.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientRenderable.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientThinkable.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientUnknown.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ICollideable.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IConVar.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ICvar.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IEngineSound.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IEngineTrace.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IGameEventmanager.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IMaterialSystem.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IMDLCache.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IMoveHelper.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IPanel.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IPhysics.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IPrediction.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IRenderView.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ISurface.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVDebugOverlay.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVEngineClient.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IViewRender.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVModelInfoClient.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVModelRender.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\Studio.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\BaseHandle.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\characterset.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\checksum_crc.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\checksum_md5.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\ClientClass.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\Color.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\Convar.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\CUserCmd.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\EHandle.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\Enums.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\GlobalVars.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\glow_outline_effect.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\IHandleEntity.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\platform.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\Recv.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\UtlBuffer.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\UtlMemory.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\UtlString.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\UtlVector.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\Utils.hpp">
+      <Filter>headers\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector2D.hpp">
+      <Filter>headers\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector4D.hpp">
+      <Filter>headers\math</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMngr.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamehooking.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\VMTManager.hpp">
+      <Filter>headers\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\Math.hpp">
+      <Filter>headers\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Visuals.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Glow.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Miscellaneous.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\PredictionSystem.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\LagCompensation.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\AntiAim.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Resolver.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\RebuildGameMovement.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\BulletImpact.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\GrenadePrediction.h">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\datamap.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="features\ServerSounds.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ILocalize.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="features\PlayerHurt.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\json.hpp">
+      <Filter>headers\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\Config.hpp">
+      <Filter>headers\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IViewRenderBeams.hpp">
+      <Filter>headers\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Skinchanger.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\KitParser.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\BoneAccessor.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Animation.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\Dropdown.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\Menu.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\MenuBackground.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\MenuControls.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\MenuFonts.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="c_hook_function.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fnv1a.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="c_memory.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vfunct\vfuncthook.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\AntiCheatScan.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\bfReader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BASS\API.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BASS\bass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BASS\dll.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Handlers.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\memalloc.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globals\HanaSong.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\TabFontsCreatedHanaSong.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SanityChech.hpp">
+      <Filter>headers\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\AngryPew.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\LegitPew.h">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="vsonyp0wer\imconfig.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vsonyp0wer\vsonyp0wer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vsonyp0wer\vsonyp0wer_impl_dx9.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vsonyp0wer\vsonyp0wer_impl_win32.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vsonyp0wer\vsonyp0wer_internal.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vsonyp0wer\vsdns_textedit.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vsonyp0wer\vsdns_truetype.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vsonyp0wer\vsdns_rectpack.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\antileak.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\sha256.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Install.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="math\VMatrix.cpp">
+      <Filter>sources\math</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\characterset.cpp">
+      <Filter>sources\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\checksum_crc.cpp">
+      <Filter>sources\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\checksum_md5.cpp">
+      <Filter>sources\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\Color.cpp">
+      <Filter>sources\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\Convar.cpp">
+      <Filter>sources\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\UtlBuffer.cpp">
+      <Filter>sources\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\UtlString.cpp">
+      <Filter>sources\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\Utils.cpp">
+      <Filter>sources\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Vector2D.cpp">
+      <Filter>sources\math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Vector4D.cpp">
+      <Filter>sources\math</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMngr.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Handlers.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\Math.cpp">
+      <Filter>sources\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Visuals.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Glow.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Miscellaneous.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\PredictionSystem.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\LagCompensation.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\AntiAim.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Resolver.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\RebuildGameMovement.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\BulletImpact.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\GrenadePrediction.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\ServerSounds.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\PlayerHurt.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces\IEngineTrace.cpp">
+      <Filter>sources\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\Config.cpp">
+      <Filter>sources\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Skinchanger.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\KitParser.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Animation.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\Menu.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="fnv1a.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vfunct\vfuncthook.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BASS\dll_image.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BASS\dll.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="globals\HanaSong.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="features\AngryPew.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\LegitPew.cpp">
+      <Filter>sources\features</Filter>
+    </ClCompile>
+    <ClCompile Include="vsonyp0wer\vsonyp0wer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vsonyp0wer\vsonyp0wer_demo.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vsonyp0wer\vsonyp0wer_draw.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vsonyp0wer\vsonyp0wer_impl_dx9.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vsonyp0wer\vsonyp0wer_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vsonyp0wer\vsonyp0wer_widgets.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\sha256.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
